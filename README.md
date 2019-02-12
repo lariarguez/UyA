@@ -2,7 +2,10 @@
 
 Introducción al protocolo HTTP.
 
-PRIMER ENLACE: (http://www.gobiernodecanarias.org/istac/api/)
+    María Candelaria Fariña Rodríguez
+    Carmen Castro González
+
+PRIMERA PÁGINA: (http://www.gobiernodecanarias.org/istac/api/)
 
     Qué peticiones desencadena la consulta.
      La petición que desencadena la consulta es la que aparece en primer lugar, que es un documento con código 304.
@@ -35,3 +38,38 @@ PRIMER ENLACE: (http://www.gobiernodecanarias.org/istac/api/)
     
     Alguna línea de código HTML que se aplique.
     Sí. 1, ya que aparecen dos pero la del icono como ya he dicho da error y no se aplica.
+    
+    
+    SEGUNDA PÁGINA: https://www3.gobiernodecanarias.org/istac/api/operations/v1.0/operations?limit=5
+
+    ¿Qué peticiones desencadena la consulta?
+    La petición que desencadena la consulta es la que aparece en el primer lugar con el código 200 que es el documento que nos                                  muestra el código xml. 
+    
+    ¿Qué tipo de petición estás realizando?
+    GET 
+    
+    ¿Qué código de estatus devuelve?
+    Ahora mismo hay dos códigos uno de tipo 200 que es de tipo documento y un otro de tipo 404 que es un error, que hace que no                             podamos ver el icono de la página web. 
+
+    ¿Qué DNS tiene el servidor?
+    www3.gobiernodecanarias.org
+    
+    ¿Qué IP tiene el servidor?
+    93.188.137.126 
+    
+    ¿La página tiene alguna cookie?, ¿Cuáles?. 
+    No, está página no tiene ninguna cookie.
+    
+    ¿Qué idioma acepta?. 
+    Acepta el idioma español y el inglés procedente de Estados Unidos. 
+    
+    Alguna línea de código JavaScript.
+    Esta página no posee ninguna línea de código en JavaScript.
+    
+    Alguna línea de código CSS que se aplique.
+    Esta página no posee ninguna línea de código en CSS.
+    
+    Alguna línea de código HTML que se aplique.
+    Se aplica una imagen en HTML que se trata del icono de la página web, pero aunque esté no funciona y es un error de cliente         404.
+
+
