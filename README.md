@@ -7,31 +7,31 @@ Introducción al protocolo HTTP.
 
 PRIMERA PÁGINA: (http://www.gobiernodecanarias.org/istac/api/)
 
-    Qué peticiones desencadena la consulta.
+    ¿Qué peticiones desencadena la consulta?
      La petición que desencadena la consulta es la que aparece en primer lugar, que es un documento con código 304.
      
     ¿Qué tipo de petición estás realizando?
-     Tipo GET
+       Estoy realizando una petición de tipo GET.
      
-    Qué código de estatus devuelve.
+    ¿Qué código de estatus devuelve?
      Ahora mismo casi todos los códigos con 3xx dado que se encuentran caceheados estas peticiones, luego hay un error 404, que 
      corresponde a un una petición para el icono, que no se muestra como resultado del erro y, por último, un código 200 en una 
      plantilla de estilos.
      
-    Qué DNS tiene el servidor
-    www.gobiernodecanarias.org
+    ¿Qué DNS tiene el servidor?
+     www.gobiernodecanarias.org
     
-    Qué IP tiene tiene el servidor
+    ¿Qué IP tiene tiene el servidor?
      93.188.137.123
      
     ¿La página tiene alguna cookie?, ¿Cuáles?.
-     No
+      No, está página no tiene ninguna cookie.
      
     ¿Qué idioma acepta?.
-    La petición acepta Inglés (en-US)
+     La petición acepta Inglés (en-US).
     
     Alguna línea de código JavaScript
-    No
+     Esta página no posee ninguna línea de código en JavaScript.
     
     Alguna línea de código CSS que se aplique
     Sí, 5.
@@ -43,25 +43,27 @@ PRIMERA PÁGINA: (http://www.gobiernodecanarias.org/istac/api/)
     SEGUNDA PÁGINA: https://www3.gobiernodecanarias.org/istac/api/operations/v1.0/operations?limit=5
 
     ¿Qué peticiones desencadena la consulta?
-    La petición que desencadena la consulta es la que aparece en el primer lugar con el código 200 que es el documento que nos                                  muestra el código xml. 
+        La petición que desencadena la consulta es la que aparece en primer lugar, con el código de respuesta 200 que significa que el servidor da como respuesta OK y el navegador nos muestra el xml.
     
     ¿Qué tipo de petición estás realizando?
-    GET 
+        Estoy realizando una petición de tipo GET.
+
     
     ¿Qué código de estatus devuelve?
-    Ahora mismo hay dos códigos uno de tipo 200 que es de tipo documento y un otro de tipo 404 que es un error, que hace que no                             podamos ver el icono de la página web. 
+         Ahora mismo hay dos códigos de estatus. Uno de ellos con el número 200 que significa que el servidor da como respuesta OK y otro con el número 404 que significa que ha ocurrido un error de cliente, es decir, nuestro y que significa que el contenido que lleva a ver el icono de la página web se ha extraviado, ha sido eliminado o cambiado a otro URL.
+
 
     ¿Qué DNS tiene el servidor?
-    www3.gobiernodecanarias.org
+        www3.gobiernodecanarias.org
     
     ¿Qué IP tiene el servidor?
-    93.188.137.126 
+        93.188.137.126 
     
     ¿La página tiene alguna cookie?, ¿Cuáles?. 
     No, está página no tiene ninguna cookie.
     
     ¿Qué idioma acepta?. 
-    Acepta el idioma español y el inglés procedente de Estados Unidos. 
+    Acepta el idioma español (es-ES) y el inglés procedente de Estados Unidos (en-US).
     
     Alguna línea de código JavaScript.
     Esta página no posee ninguna línea de código en JavaScript.
@@ -70,6 +72,6 @@ PRIMERA PÁGINA: (http://www.gobiernodecanarias.org/istac/api/)
     Esta página no posee ninguna línea de código en CSS.
     
     Alguna línea de código HTML que se aplique.
-    Se aplica una imagen en HTML que se trata del icono de la página web, pero aunque esté no funciona y es un error de cliente         404.
+    Se aplica una imagen en HTML que proyecta el icono de la página web, pero esté no funciona y sale un error de cliente con el código de respuesta 404, que significa que el contenido se ha extraviado, ha sido eliminado o cambiado a otro URL.
 
 
