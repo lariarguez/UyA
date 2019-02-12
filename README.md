@@ -40,16 +40,16 @@ PRIMERA PÁGINA: (http://www.gobiernodecanarias.org/istac/api/)
     Sí. 1, ya que aparecen dos pero la del icono como ya he dicho da error y no se aplica.
     
     
-    SEGUNDA PÁGINA: https://www3.gobiernodecanarias.org/istac/api/operations/v1.0/operations?limit=5
+    SEGUNDA PÁGINA: (https://www3.gobiernodecanarias.org/istac/api/operations/v1.0/operations?limit=5)
 
     ¿Qué peticiones desencadena la consulta?
-    La petición que desencadena la consulta es la que aparece en el primer lugar con el código 200 que es el documento que nos                                  muestra el código xml. 
+    La petición que desencadena la consulta es la que aparece en el primer lugar con el código 200 que es el documento que nos             muestra el código xml. 
     
     ¿Qué tipo de petición estás realizando?
-    GET 
+        Estoy realizando una petición de tipo GET.
     
     ¿Qué código de estatus devuelve?
-    Ahora mismo hay dos códigos uno de tipo 200 que es de tipo documento y un otro de tipo 404 que es un error, que hace que no                             podamos ver el icono de la página web. 
+    Ahora mismo hay dos códigos de estatus. Uno de ellos con el número 200 que significa que el servidor da como respuesta OK y un otro con el número 404 que significa que ha ocurrido un error de cliente, es decir, nuestro y que significa que el contenido que lleva a ver el icono de la página web se ha extraviado, ha sido eliminado o cambiado a otro URL.
 
     ¿Qué DNS tiene el servidor?
     www3.gobiernodecanarias.org
@@ -61,7 +61,7 @@ PRIMERA PÁGINA: (http://www.gobiernodecanarias.org/istac/api/)
     No, está página no tiene ninguna cookie.
     
     ¿Qué idioma acepta?. 
-    Acepta el idioma español y el inglés procedente de Estados Unidos. 
+    Acepta el idioma español (es-ES) y el inglés procedente de Estados Unidos (en-US). 
     
     Alguna línea de código JavaScript.
     Esta página no posee ninguna línea de código en JavaScript.
