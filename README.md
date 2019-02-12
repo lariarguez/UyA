@@ -2,8 +2,9 @@
 
  # Introducción al protocolo HTTP.
 
-   María Candelaria Fariña Rodríguez
-   Carmen Castro González
+    María Candelaria Fariña Rodríguez.
+    
+    Carmen Castro González.
 
 PRIMERA PÁGINA: (http://www.gobiernodecanarias.org/istac/api/)
 
