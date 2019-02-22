@@ -1,7 +1,7 @@
-         Seminario: Uso de la web por personas con discapacidad.
-                    María Candelaria Fariña Rodríguez
-                          Carmen Castro González.
-                    Carolina Candelaria Álvarez Martín.
+                                    #Seminario: Uso de la web por personas con discapacidad.
+                                             María Candelaria Fariña Rodríguez.
+                                                  Carmen Castro González.
+                                             Carolina Candelaria Álvarez Martín.
 
 
       1. Lector de pantalla Chromevox.
