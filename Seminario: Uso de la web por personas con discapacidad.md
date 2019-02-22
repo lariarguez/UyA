@@ -3,6 +3,7 @@
                           Carmen Castro González.
                     Carolina Candelaria Álvarez Martín.
 
+
       1. Lector de pantalla Chromevox.
 Al usar este lector de pantalla e intentar llegar a los calendarios de exámenes de la asignatura no es posible llegar a abrir el archivo de los exámenes pues las listas contraídas no se abren al pulsar sobre ellas, de manera que sería imposible acceder a ellas por alumnos con algún tipo de disfuncionalidad en la vista. También en el campus virtual se puede acceder a las asignaturas aunque se detiene a leer todo en lo que puedes pulsar y puede hacerlo un complicado, nos hemos dado cuenta de que si bien puede acceder al campus de la asignaturas y acceder al contenido, hay ocasiones en la que no se lee todo el texto de la pantalla y eso haría muy difícil hacer las tareas.
 
