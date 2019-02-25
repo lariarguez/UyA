@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Introducción HTML.</title>
+</head>
+<body>
+	<div align="center">
+		<header>
+			<!-- Buscador no funciona porque esto es un prototipo -->
+			<form action="intro.html" method="get">
+    		<input type="search" name="q" placeholder="libros,autores,eventos.." required="required">
+    		<button type="submit">Buscar</button>
+			</form>
+			
+			<main>
+			<h1> Club de Lectura </h1>
+			<h3> ¡Bienvenidos a nuestra página web! </h3>
+				 Aquí tendrás tu <strong>propia biblioteca</strong>,<br/>
+				 gracias a que podrás ordenar tus libros en listas,<br/>
+				 así como encontrar autores e información sobre reuniones<br/>
+				 de lecturas, firmas de libros y... ¡mucho más!<br/>
+
+				 <!-- Esta frase de abajo la puse porque las etiquetas dfn y abbr aparecen en las diapositivas -->
+
+				 <h3>Porque...</h3>
+				 <dfn> “Carecer de libros propios es el colmo de la miseria  "</dfn>
+				 <strong><abbr tittle = "Benjamin Franklin">Benjamin F.</abbr></strong>
+				 <br>
+				 </br>
+			</main>
+		
+		<img src="https://img1.codigonuevo.com/89/cd/12/libro-veneno-codigo--930x600.jpg" alt="Foto de libros" width="600px" border="5">
+	<!-- Eventos-->
+	<h2>Proximos eventos</h2>
+	<table>
+		<tr>
+			<th>Proximos eventos</th>
+			<th>Fecha</th>
+			<th>Asistiré</th>
+		</tr>
+		<tr>
+			<td>Feria del libro Madrid</td>
+			<td>31 Mayo-16 Junio</td>
+			<td>
+				<form>
+				<input type="radio" name="asistir">Si<br>
+				<input type="radio" name="asistir">No<br>
+				</form>
+			</td>
+		</tr>
+		<tr>
+			<td>Sant Jordi</td>
+			<td>23 Abril</td>
+			<td>
+				<form>
+				<input type="radio" name="asistir">Si<br>
+				<input type="radio" name="asistir">No<br>
+				</form>
+			</td>
+		</tr>
+	</table>	
+		
+	<!-- Formularios -->
+	
+
+	<!-- Formulario de inicio de sesion redirige a su página de perfil donde tiene guardaa sus listas y cosas de interés -->
+	<h2>Formulario de Inicio sesión</h2>
+	<form action="user.html" method="get">
+  	Nombre de usuario: <input type="text" name="fname" placeholder="pepe234"><br>
+	  Contraseña: <input type="password" name="lname" placeholder="********"><br>
+	<p class="regtext">No tienes una cuenta? <a href="login.html" >Entra Aquí y Registrate!</a></p>
+  	<input type="submit" value="Enviar">
+	</form>
+	
+	
+		<!------Formulario de contacto -------------->
+		<h2>¿Alguna duda o sugerencia?¡Contacta con nosotros!</h2>
+		<form action="intro.html" method ="get">
+		Email: <input type="text" name="lname" placeholder="nombre@ejemplo.es" required><br><br>
+		<textarea name="mensaje" rows="10" cols="30" placeholder="Escribe aquí tus dudas o sugerencias."></textarea><br><br>
+		Selecciona el tema:
+		<select>
+			<option>Problemas</option>
+			<option>Dudas</option>
+			<option>Sugerencias</option>
+		</select>
+		<br>
+		<input type="checkbox" required>He leído y acepto la política de privacidad y cookies<br><br>
+		<input type="submit">
+		<address>Avenida La Trinidad. Número 14. Club de Lectura.<br>Número de teléfono: 922340729<br></address>
+		<footer>Página web hecha por: Carmen Castro González, Carolina Candelaria Álvarez Martín y María Candelaria Fariña Rodríguez.</footer>
+	</body>
+</html>
